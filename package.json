@@ -1,0 +1,17 @@
+{
+  "name": "developer-portfolio-tools",
+  "version": "1.0.0",
+  "description": "Modern Developer Portfolio & Quick Tools Dashboard deployable to Render in under 5 minutes",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build": "node -e \"console.log('Build ready for deployment')\""
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
